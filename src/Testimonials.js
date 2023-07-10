@@ -37,6 +37,7 @@ function Testimonials() {
         - {testimonials[currentIndex].author}
       </div>
       <div className="testimonials-nav">
+        <span className="title">Testimonials Pages Using Hooks</span>
         <button onClick={handlePrevClick}>Prev</button>
         <button onClick={handleNextClick}>Next</button>
       </div>
